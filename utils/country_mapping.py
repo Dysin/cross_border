@@ -1,0 +1,258 @@
+'''
+@Desc:   中文国家名到英文标准国家名的映射（Plotly 识别用）
+@Author: Dysin
+@Time:   2025/9/18
+'''
+
+country_mapping_cn = {
+    "中国": "China",
+    "中华人民共和国": "China",
+    "香港": "Hong Kong",
+    "澳门": "Macao",
+    "台湾": "Taiwan",
+    "中国香港": "Hong Kong",
+    "中国澳门": "Macao",
+    "中国台湾": "Taiwan",
+
+    "美国": "United States",
+    "英国": "United Kingdom",
+    "俄罗斯": "Russia",
+    "加拿大": "Canada",
+    "澳大利亚": "Australia",
+    "新西兰": "New Zealand",
+
+    "德国": "Germany",
+    "法国": "France",
+    "意大利": "Italy",
+    "西班牙": "Spain",
+    "葡萄牙": "Portugal",
+    "荷兰": "Netherlands",
+    "比利时": "Belgium",
+    "瑞士": "Switzerland",
+    "奥地利": "Austria",
+    "瑞典": "Sweden",
+    "挪威": "Norway",
+    "丹麦": "Denmark",
+    "芬兰": "Finland",
+    "爱尔兰": "Ireland",
+    "希腊": "Greece",
+    "波兰": "Poland",
+    "匈牙利": "Hungary",
+    "捷克": "Czechia",
+    "斯洛伐克": "Slovakia",
+    "罗马尼亚": "Romania",
+    "保加利亚": "Bulgaria",
+    "乌克兰": "Ukraine",
+    "白俄罗斯": "Belarus",
+    "立陶宛": "Lithuania",
+    "拉脱维亚": "Latvia",
+    "爱沙尼亚": "Estonia",
+    "冰岛": "Iceland",
+
+    "日本": "Japan",
+    "韩国": "South Korea",
+    "朝鲜": "North Korea",
+    "印度": "India",
+    "巴基斯坦": "Pakistan",
+    "孟加拉国": "Bangladesh",
+    "越南": "Vietnam",
+    "泰国": "Thailand",
+    "马来西亚": "Malaysia",
+    "新加坡": "Singapore",
+    "印度尼西亚": "Indonesia",
+    "菲律宾": "Philippines",
+    "柬埔寨": "Cambodia",
+    "老挝": "Laos",
+    "缅甸": "Myanmar",
+    "斯里兰卡": "Sri Lanka",
+    "尼泊尔": "Nepal",
+    "不丹": "Bhutan",
+    "马尔代夫": "Maldives",
+
+    "沙特阿拉伯": "Saudi Arabia",
+    "阿联酋": "United Arab Emirates",
+    "卡塔尔": "Qatar",
+    "科威特": "Kuwait",
+    "阿曼": "Oman",
+    "巴林": "Bahrain",
+    "以色列": "Israel",
+    "土耳其": "Turkey",
+    "伊朗": "Iran",
+    "伊拉克": "Iraq",
+    "叙利亚": "Syria",
+    "约旦": "Jordan",
+    "黎巴嫩": "Lebanon",
+    "也门": "Yemen",
+
+    "南非": "South Africa",
+    "埃及": "Egypt",
+    "尼日利亚": "Nigeria",
+    "肯尼亚": "Kenya",
+    "埃塞俄比亚": "Ethiopia",
+    "坦桑尼亚": "Tanzania",
+    "乌干达": "Uganda",
+    "加纳": "Ghana",
+    "摩洛哥": "Morocco",
+    "阿尔及利亚": "Algeria",
+    "突尼斯": "Tunisia",
+    "利比亚": "Libya",
+    "苏丹": "Sudan",
+    "刚果（金）": "Democratic Republic of the Congo",
+    "刚果（布）": "Republic of the Congo",
+    "安哥拉": "Angola",
+
+    "墨西哥": "Mexico",
+    "巴西": "Brazil",
+    "阿根廷": "Argentina",
+    "智利": "Chile",
+    "秘鲁": "Peru",
+    "哥伦比亚": "Colombia",
+    "委内瑞拉": "Venezuela",
+    "乌拉圭": "Uruguay",
+    "巴拉圭": "Paraguay",
+    "玻利维亚": "Bolivia",
+    "厄瓜多尔": "Ecuador",
+    "古巴": "Cuba",
+    "多米尼加": "Dominican Republic",
+    "海地": "Haiti",
+    "牙买加": "Jamaica",
+
+    "几内亚": "Guinea",
+    "阿尔巴尼亚": "Albania",
+    "亚美尼亚": "Armenia",
+    "开曼群岛": "Cayman Islands",
+    "加蓬": "Gabon",
+    "安道尔": "Andorra",
+    "哈萨克斯坦": "Kazakhstan",
+    "哥斯达黎加": "Costa Rica",
+    "巴勒斯坦": "Palestine",
+    "法属波利尼西亚": "French Polynesia",
+    "赞比亚": "Zambia",
+    "塞尔维亚": "Serbia",
+    "马达加斯加": "Madagascar",
+    "基里巴斯": "Kiribati",
+    "萨尔瓦多": "El Salvador",
+    "津巴布韦": "Zimbabwe",
+    "密克罗尼西亚联邦": "Micronesia",
+    "塞浦路斯": "Cyprus",
+    "卢森堡": "Luxembourg",
+    "巴拿马": "Panama",
+    "刚果共和国": "Republic of the Congo",  # 注意和 DR Congo 区分
+    "新喀里多尼亚": "New Caledonia",
+    "洪都拉斯": "Honduras",
+    "蒙古": "Mongolia",
+    "留尼汪": "Reunion",
+    "格鲁吉亚": "Georgia",
+    "巴布亚新几内亚": "Papua New Guinea",
+    "黑山": "Montenegro",
+    "危地马拉": "Guatemala",
+    "圣马力诺": "San Marino",
+    "关岛": "Guam",
+    "圭亚那": "Guyana",
+    "塔吉克斯坦": "Tajikistan",
+    "波斯尼亚和黑塞哥维那": "Bosnia and Herzegovina",
+    "马耳他": "Malta",
+    "吉尔吉斯斯坦": "Kyrgyzstan",
+    "摩尔多瓦": "Moldova",
+    "喀麦隆": "Cameroon",
+    "斯洛文尼亚": "Slovenia",
+    "塞内加尔": "Senegal",
+    "克罗地亚": "Croatia",
+    "特立尼达和多巴哥": "Trinidad and Tobago",
+    "阿塞拜疆": "Azerbaijan",
+    "斐济": "Fiji",
+    "波多黎各": "Puerto Rico",
+    "乌兹别克斯坦": "Uzbekistan",
+    
+    "北马其顿": "North Macedonia",
+    "苏里南": "Suriname",
+    "马约特": "Mayotte",                       # 法国海外领地
+    "布维岛": "Bouvet Island",
+    "法属圭亚那": "French Guiana",             # 法国海外省（通常 not a separate country）
+    "塞拉利昂": "Sierra Leone",
+    "毛里求斯": "Mauritius",
+    "文莱": "Brunei",
+    "法属圣马丁": "Saint Martin",              # 法国部分（与荷属 Sint Maarten 区分）
+    "吉布提": "Djibouti",
+    "布隆迪": "Burundi",
+    "阿鲁巴": "Aruba",
+    "莫桑比克": "Mozambique",
+    "马提尼克": "Martinique",                 # 法国海外省
+    "索马里": "Somalia",
+    "加那利群岛": "Canary Islands",           # 属于 Spain（西班牙加那利群岛）；Plotly 可能不识别“Canary Islands”作为国家
+    "巴巴多斯": "Barbados",
+    "东帝汶": "Timor-Leste",                  # 推荐用 "Timor-Leste" （比 "East Timor" 更标准）
+    "马绍尔群岛": "Marshall Islands",
+    "土库曼斯坦": "Turkmenistan",
+    "库克群岛": "Cook Islands",
+    "巴哈马": "Bahamas",
+    "利比里亚": "Liberia",
+    "库拉索": "Curaçao",
+    "伯利兹": "Belize",
+    "纳米比亚": "Namibia",
+    "所罗门群岛": "Solomon Islands",
+    "刚果民主共和国": "Democratic Republic of the Congo",  # 有时写为 "DR Congo"
+    "瓜德罗普": "Guadeloupe",                 # 法国海外省
+    "尼加拉瓜": "Nicaragua",
+    "阿富汗": "Afghanistan",
+
+    "马拉维": "Malawi",
+    "科摩罗": "Comoros",
+    "瓦努阿图": "Vanuatu",
+    "多哥": "Togo",
+    "几内亚比绍": "Guinea-Bissau",
+    "布基纳法索": "Burkina Faso",
+    "汤加": "Tonga",
+    "拉丁美洲其他国家(地区)": "Latin America",  # 通用区域，不是具体国家，Plotly 可能不识别
+    "圣多美和普林西比": "Sao Tome and Principe",
+    "格林纳达": "Grenada",
+    "列支敦士登": "Liechtenstein",
+    "格陵兰": "Greenland",                # 属丹麦
+    "冈比亚": "Gambia",
+    "乍得": "Chad",
+    "博纳尔，圣俄斯塔休斯和萨巴": "Bonaire, Sint Eustatius and Saba",  # 荷兰加勒比领地
+    "中非": "Central African Republic",
+    "大洋洲其他国家(地区)": "Oceania",    # 区域，不是国家
+    "梅利利亚": "Melilla",               # 属西班牙，Plotly 不单独识别
+    "多米尼克": "Dominica",
+    "卢旺达": "Rwanda",
+    "莱索托": "Lesotho",
+    "贝宁": "Benin",
+    "塞舌尔": "Seychelles",
+    "尼日尔": "Niger",
+    "科科斯（基林）群岛": "Cocos (Keeling) Islands",  # 属澳大利亚
+    "毛里塔尼亚": "Mauritania",
+    "安提瓜和巴布达": "Antigua and Barbuda",
+    "法罗群岛": "Faroe Islands",          # 属丹麦
+    "圣卢西亚": "Saint Lucia",
+    "赤道几内亚": "Equatorial Guinea",
+    "厄立特里亚": "Eritrea",
+    "马里": "Mali",
+    "北马里亚纳群岛": "Northern Mariana Islands",  # 属美国
+    "荷属圣马丁": "Sint Maarten",         # 荷属部分
+    "百慕大": "Bermuda",                 # 英国海外领地
+    "博茨瓦纳": "Botswana",
+    "圣文森特和格林纳丁斯": "Saint Vincent and the Grenadines",
+    "美国本土外小岛屿": "United States Minor Outlying Islands",
+    "科特迪瓦": "Côte d'Ivoire",         # 或 "Ivory Coast"，Plotly 支持 "Côte d'Ivoire"
+    "摩纳哥": "Monaco",
+    "萨摩亚": "Samoa",
+    "佛得角": "Cabo Verde",              # 新官方名（Plotly 推荐用 "Cabo Verde" 而非 "Cape Verde"）
+
+    "美属维尔京群岛": "United States Virgin Islands",  # 属美国
+    "帕劳": "Palau",
+    "斯威士兰": "Eswatini",                           # 新国名，原 Swaziland，Plotly 支持 "Eswatini"
+    "特克斯和凯科斯群岛": "Turks and Caicos Islands",   # 属英国
+    "瑙鲁": "Nauru",
+    "图瓦卢": "Tuvalu",
+    "安圭拉": "Anguilla",                              # 英国海外领地
+    "南苏丹": "South Sudan",
+    "美属萨摩亚": "American Samoa",                    # 属美国
+    "圣基茨和尼维斯": "Saint Kitts and Nevis",
+
+    "英属维尔京群岛": "British Virgin Islands",      # 英国海外领地
+    "瓦利斯和富图纳": "Wallis and Futuna",           # 法国海外领地
+    "圣巴泰勒米": "Saint Barthelemy",                # 法属圣巴泰勒米（Plotly 识别 "Saint Barthelemy"）
+    "国家（地区）不明": "Unknown",                   # 不确定国家，可统一设为 Unknown 或 None
+    "英属印度洋领地": "British Indian Ocean Territory",  # 英国海外领地
+}
